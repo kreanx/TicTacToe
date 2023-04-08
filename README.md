@@ -30,7 +30,7 @@ To make a move, click on an empty square on the board. The game will automatical
 
 **Source code!**
 
-The source code for this game can be found in the TicTacToe.jsx file. It uses React components and state to manage the game board and handle user input. The game logic is implemented in the checkWinner function, which checks for winning combinations of symbols on the board.
+The source code for this game can be found in the App.jsx file. It uses React components and state to manage the game board and handle user input. The game logic is implemented in the checkWinner function, which checks for winning combinations of symbols on the board.
 
   
 
