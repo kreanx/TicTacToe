@@ -1,0 +1,9 @@
+{
+	"semi": false,
+	"quotes": false,
+	"singleQuote": true,
+	"endOfLine": "auto",
+	"tabWidth": 4,
+	"useTabs": true,
+	"importStatementFormatter": "import"
+}

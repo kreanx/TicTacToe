@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "prettier",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "rules": {
+        "no-duplicate-imports": "error",
+        "linebreak-style": ["off", "windows"],
+        "semi": 0,
+        "no-tabs": "off",
+        "object-curly-spacing": 0,
+        "indent": 0,
+        "padded-blocks": 0,
+        "comma-dangle": 0,
+        "react/react-in-jsx-scope": "off",
+        "eol-last": 0,
+        "react/prop-types": 0,
+        "no-multiple-empty-lines": ["error", {
+            "max": 1,
+            "maxEOF": 0
+        }],
+        "@typescript-eslint/no-unused-vars": ["error"]
+    }
+}
